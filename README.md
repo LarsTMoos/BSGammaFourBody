@@ -6,6 +6,7 @@ This Repository contains the rules and expressions that are necessary to constru
 These are the ones that are not already contained in the result of https://arxiv.org/abs/1411.7677, i.e. the ones that require FiveBody Gluon Bremsstrahlung Diagrams for IR cancellations.
 
 The file $\texttt{CombineGij.nb}$, together with the folder $\textit{Rules}$, contains all the neccessary ingredients for constructing our results. 
+Note that the Packages $\texttt{HypExp}$ and $\texttt{PolyLogTools}$ are needed and their paths have to be adjusted.
 
 The matrix is split up into two parts: insertion I and insertion II, which represent the different topologies when inserting the operators.
 Insertion I is built from the diagrams where there are two different fermion lines and insertion II from those with only one.

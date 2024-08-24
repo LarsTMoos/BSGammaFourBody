@@ -12,7 +12,7 @@ The matrix is split up into two parts: insertion I and insertion II, which repre
 Insertion I is built from the diagrams where there are two different fermion lines and insertion II from those with only one.
 
 The building blocks are given in differential form as DB[i] and in integrated form IB[i]. 
-The notebook also contains a routine to evaluate the matrix elements for given values of $m_q$/$m_b$, $\mu$/$m_b$  and the energy cut-off $\delta$.
+The notebook also contains a routine to evaluate the matrix elements for given values of $m_q/ m_b$, $\mu/ m_b$  and the energy cut-off $\delta$.
 
 ## Integral Results
 

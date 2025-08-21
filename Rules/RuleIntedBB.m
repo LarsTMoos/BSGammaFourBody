@@ -106,7 +106,18 @@
    480*HPL[{2, 0}, dbar] - 80*(2 + 6*dbar + 3*dbar^2)*HPL[{2, 1}, dbar] + 
    40*(28 + 12*dbar + 3*dbar^2)*Zeta[3], 
  BBinted[30] -> (202 - 24*dbar - 201*dbar^2 + 92*dbar^3 - 69*dbar^4)/18 + 
-   (71*HPL[{0}, dbar])/3, BBinted[50] -> (-2*Pi^2*HPL[{-2}, dbar])/9 - 
+   (71*HPL[{0}, dbar])/3, BBinted[31] -> 
+  (-19359 + 27808*dbar - 12333*dbar^2 + 6240*dbar^3 - 2356*dbar^4)/1296 + 
+   ((250 - 438*dbar + 219*dbar^2 - 248*dbar^3 + 80*dbar^4)*Pi^2)/216 + 
+   ((-1962 - 650*dbar + 285*dbar^2 - 216*dbar^3 - 64*dbar^4)/216 + Pi^2)*
+    HPL[{0}, dbar] + ((-27 + 157*dbar + 18*dbar^2 - 132*dbar^3 - 16*dbar^4)*
+     HPL[{1}, dbar])/108 + ((-40 + 130*dbar - 9*dbar^2 + 80*dbar^3 - 
+      24*dbar^4)*HPL[{2}, dbar])/36 - (4*HPL[{3}, dbar])/3 + 
+   (dbar*(22 - 15*dbar + 28*dbar^2 - 10*dbar^3)*HPL[{0, 0}, dbar])/18 - 
+   ((-1 + dbar)^2*(1 + 2*dbar^2)*HPL[{1, 0}, dbar])/18 - 
+   (2*(7 - 10*dbar + 6*dbar^2 - 4*dbar^3 + dbar^4)*HPL[{1, 1}, dbar])/9 - 
+   (4*HPL[{2, 1}, dbar])/3 + (8*Zeta[3])/3, 
+ BBinted[50] -> (-2*Pi^2*HPL[{-2}, dbar])/9 - 
    ((12 + 22*dbar + 15*dbar^2 + 6*dbar^3 + dbar^4)*Pi^2*HPL[{-1}, dbar])/27 - 
    ((-1 + dbar)*(102149 - 1368*Pi^2 + dbar^2*(4819 - 864*Pi^2) + 
       dbar*(61213 + 216*Pi^2) + dbar^3*(-6709 + 576*Pi^2))*HPL[{1}, dbar])/
@@ -934,4 +945,114 @@
     324 + HPL[{0}, dbar]*((21876840 - 8120754*dbar - 16766658*dbar^2 + 
        3731164*dbar^3 + 219647*dbar^4 - 944559*dbar^5)/(116640*(-1 + dbar)) + 
      ((87264 + 25254*dbar - 9639*dbar^2 + 39016*dbar^3 - 11916*dbar^4)*Pi^2)/
-      3888 + 39*Zeta[3])}
+      3888 + 39*Zeta[3]), BBinted[76] -> 
+  (-1348725 + 1213928*dbar - 46602*dbar^2 + 220080*dbar^3 - 41705*dbar^4)/
+    31104 + ((10329 - 8178*dbar + 6717*dbar^2 - 4232*dbar^3 + 918*dbar^4)*
+     Pi^2)/2592 - (11*Pi^4)/360 + 
+   ((-2762 + 717*dbar + 1672*dbar^2 + 520*dbar^3 - 147*dbar^4)/216 + 
+     ((-1 + dbar)*(-7 + 3*dbar - 3*dbar^2 + dbar^3)*Pi^2)/27)*
+    HPL[{1}, dbar] + ((-4029 + 280*dbar - 2709*dbar^2 + 1196*dbar^3 - 
+       280*dbar^4)/432 + (2*Pi^2)/9)*HPL[{2}, dbar] + 
+   ((-105 - 20*dbar + 39*dbar^2 - 28*dbar^3 + 7*dbar^4)*HPL[{3}, dbar])/36 + 
+   (2*HPL[{4}, dbar])/3 + 
+   ((360 + 2610*dbar - 1539*dbar^2 + 1936*dbar^3 - 332*dbar^4)/432 - 
+     (2*Pi^2)/9)*HPL[{0, 0}, dbar] + 
+   ((-143 + 372*dbar - 427*dbar^2 + 272*dbar^3 - 70*dbar^4)*
+     HPL[{1, 0}, dbar])/144 + ((-1392 + 682*dbar + 483*dbar^2 + 294*dbar^3 - 
+      67*dbar^4)*HPL[{1, 1}, dbar])/216 - 
+   (5*(7 - 10*dbar + 6*dbar^2 - 4*dbar^3 + dbar^4)*HPL[{1, 2}, dbar])/36 + 
+   ((38 + 20*dbar - 12*dbar^2 + 4*dbar^3 - dbar^4)*HPL[{2, 0}, dbar])/36 + 
+   ((-162 - 140*dbar - 90*dbar^2 + 12*dbar^3 - 3*dbar^4)*HPL[{2, 1}, dbar])/
+    36 - (5*HPL[{2, 2}, dbar])/6 - HPL[{3, 1}, dbar] + 
+   (dbar*(-25 + 15*dbar - 72*dbar^2 + 18*dbar^3)*HPL[{0, 0, 0}, dbar])/36 + 
+   ((-7 + 10*dbar - 6*dbar^2 + 4*dbar^3 - dbar^4)*HPL[{1, 0, 0}, dbar])/9 - 
+   (7*(7 - 10*dbar + 6*dbar^2 - 4*dbar^3 + dbar^4)*HPL[{1, 1, 0}, dbar])/36 + 
+   ((7 - 10*dbar + 6*dbar^2 - 4*dbar^3 + dbar^4)*HPL[{1, 1, 1}, dbar])/36 - 
+   (2*HPL[{2, 0, 0}, dbar])/3 - (7*HPL[{2, 1, 0}, dbar])/6 + 
+   HPL[{2, 1, 1}, dbar]/6 + (7*(55 + 20*dbar + 9*dbar^2)*Zeta[3])/36 + 
+   HPL[{0}, dbar]*(-1/1296*(-24760 + 10523*dbar + 17828*dbar^2 - 
+        5147*dbar^3 + 929*dbar^4 + 501*dbar^5)/(-1 + dbar) + 
+     ((524 + 95*dbar - 57*dbar^2 + 112*dbar^3 - 28*dbar^4)*Pi^2)/216 + 
+     (4*Zeta[3])/3), BBinted[77] -> 
+  (-438480 + 705221*dbar - 390738*dbar^2 + 208749*dbar^3 - 84752*dbar^4)/
+    77760 + ((23356 - 57042*dbar + 39753*dbar^2 - 28576*dbar^3 + 5568*dbar^4)*
+     Pi^2)/25920 + Pi^4/108 + 
+   ((-161856 - 74056*dbar + 52449*dbar^2 + 924*dbar^3 - 15715*dbar^4)/25920 + 
+     ((240 + 22*dbar - 15*dbar^2 + 132*dbar^3 - 44*dbar^4)*Pi^2)/216)*
+    HPL[{0}, dbar] + ((152769 - 196670*dbar + 55764*dbar^2 - 4668*dbar^3 - 
+       7195*dbar^4)/25920 + ((-1 + dbar)*(-15 + 7*dbar - 8*dbar^2 + 4*dbar^3)*
+       Pi^2)/216)*HPL[{1}, dbar] + 
+   ((-5324 + 31878*dbar - 20397*dbar^2 + 14048*dbar^3 - 3264*dbar^4)/4320 + 
+     Pi^2/18)*HPL[{2}, dbar] + 
+   ((-240 + 66*dbar - 45*dbar^2 - 48*dbar^3 + 16*dbar^4)*HPL[{3}, dbar])/72 + 
+   (dbar*(32898 - 21117*dbar + 26176*dbar^2 - 3968*dbar^3)*HPL[{0, 0}, dbar])/
+    4320 + ((-8003 + 12106*dbar - 9039*dbar^2 + 6872*dbar^3 - 1936*dbar^4)*
+     HPL[{1, 0}, dbar])/2160 + 
+   ((3143 - 4536*dbar + 1689*dbar^2 - 152*dbar^3 - 144*dbar^4)*
+     HPL[{1, 1}, dbar])/2160 + 
+   ((-15 + 22*dbar - 15*dbar^2 + 12*dbar^3 - 4*dbar^4)*HPL[{1, 2}, dbar])/9 + 
+   ((-96 + 66*dbar - 45*dbar^2 + 12*dbar^3 - 4*dbar^4)*HPL[{2, 0}, dbar])/
+    36 + (-1/3 + (77*dbar)/36 - (35*dbar^2)/24 + dbar^3 - dbar^4/3)*
+    HPL[{2, 1}, dbar] - (4*HPL[{2, 2}, dbar])/3 - (2*HPL[{3, 0}, dbar])/3 - 
+   (4*HPL[{3, 1}, dbar])/3 + (8*(-3 + dbar)*dbar^3*HPL[{0, 0, 0}, dbar])/9 + 
+   ((-15 + 22*dbar - 15*dbar^2 + 12*dbar^3 - 4*dbar^4)*HPL[{1, 0, 0}, dbar])/
+    9 + ((-15 + 22*dbar - 15*dbar^2 + 12*dbar^3 - 4*dbar^4)*
+     HPL[{1, 1, 0}, dbar])/9 - (4*HPL[{2, 0, 0}, dbar])/3 - 
+   (4*HPL[{2, 1, 0}, dbar])/3 + 
+   ((-60 + 22*dbar - 15*dbar^2 + 12*dbar^3 - 4*dbar^4)*Zeta[3])/36, 
+ BBinted[78] -> (276421163 - 231629932*dbar - 7992794*dbar^2 - 
+     47017752*dbar^3 + 10858675*dbar^4)/6168960 + 
+   ((-5826151 + 1963764*dbar - 2186406*dbar^2 + 1088472*dbar^3 - 
+      198876*dbar^4)*Pi^2)/1542240 + (167*Pi^4)/3780 + 
+   ((35587113 - 24660646*dbar - 4294395*dbar^2 - 9117222*dbar^3 + 
+       2485150*dbar^4)/1542240 - (25*(-1 + dbar)*(-7 + 3*dbar - 3*dbar^2 + 
+        dbar^3)*Pi^2)/756)*HPL[{1}, dbar] + 
+   ((2730167 + 1768264*dbar + 642624*dbar^2 + 49424*dbar^3 - 36562*dbar^4)/
+      257040 - (25*Pi^2)/126)*HPL[{2}, dbar] + 
+   ((-1143 + 3145*dbar - 3579*dbar^2 + 952*dbar^3 - 238*dbar^4)*
+     HPL[{3}, dbar])/2142 - (16*HPL[{4}, dbar])/21 + 
+   ((-122400 + 149442*dbar - 111903*dbar^2 + 212384*dbar^3 - 84642*dbar^4)/
+      128520 + (16*Pi^2)/63)*HPL[{0, 0}, dbar] + 
+   ((-684063 + 689056*dbar - 115104*dbar^2 + 145032*dbar^3 - 40201*dbar^4)*
+     HPL[{1, 0}, dbar])/257040 + 
+   ((2325753 - 1641196*dbar - 255006*dbar^2 - 579912*dbar^3 + 150361*dbar^4)*
+     HPL[{1, 1}, dbar])/257040 - 
+   (4*(7 - 10*dbar + 6*dbar^2 - 4*dbar^3 + dbar^4)*HPL[{1, 2}, dbar])/63 + 
+   ((-16345 + 4420*dbar - 2652*dbar^2 + 408*dbar^3 - 102*dbar^4)*
+     HPL[{2, 0}, dbar])/4284 + 
+   ((21839 + 26218*dbar + 6666*dbar^2 + 1224*dbar^3 - 306*dbar^4)*
+     HPL[{2, 1}, dbar])/4284 - (8*HPL[{2, 2}, dbar])/21 - 
+   (2*HPL[{3, 0}, dbar])/3 - (4*HPL[{3, 1}, dbar])/21 - 
+   (2*dbar*(-25 + 15*dbar - 16*dbar^2 + 4*dbar^3)*HPL[{0, 0, 0}, dbar])/63 - 
+   (2*(7 - 10*dbar + 6*dbar^2 - 4*dbar^3 + dbar^4)*HPL[{1, 0, 0}, dbar])/21 - 
+   (2*(7 - 10*dbar + 6*dbar^2 - 4*dbar^3 + dbar^4)*HPL[{1, 1, 1}, dbar])/63 - 
+   (4*HPL[{2, 0, 0}, dbar])/7 - (4*HPL[{2, 1, 1}, dbar])/21 + 
+   HPL[{0}, dbar]*((-23958676 + 11688574*dbar + 11096145*dbar^2 + 
+       3317575*dbar^3 - 3220118*dbar^4 + 916660*dbar^5)/
+      (1542240*(-1 + dbar)) + ((-18874 - 5270*dbar + 3162*dbar^2 - 
+        2380*dbar^3 + 595*dbar^4)*Pi^2)/12852 - (32*Zeta[3])/21) + 
+   ((-57955 - 15508*dbar - 9708*dbar^2 + 952*dbar^3 - 238*dbar^4)*Zeta[3])/
+    4284, BBinted[79] -> (-56709 + 121924*dbar - 79602*dbar^2 + 
+     21624*dbar^3 - 7237*dbar^4)/15552 + 
+   ((1667 - 5844*dbar + 3534*dbar^2 - 2296*dbar^3 + 348*dbar^4)*Pi^2)/1296 + 
+   Pi^4/54 + ((-12420 - 9902*dbar + 6855*dbar^2 - 2646*dbar^3 - 704*dbar^4)/
+      1296 + ((138 + 10*dbar - 6*dbar^2 + 44*dbar^3 - 11*dbar^4)*Pi^2)/54)*
+    HPL[{0}, dbar] + ((22743 - 30178*dbar + 11247*dbar^2 - 4002*dbar^3 + 
+       190*dbar^4)/1296 + ((-1 + dbar)*(-7 + 3*dbar - 3*dbar^2 + dbar^3)*
+       Pi^2)/54)*HPL[{1}, dbar] + 
+   ((269 + 3192*dbar - 1776*dbar^2 + 1104*dbar^3 - 198*dbar^4)/216 + Pi^2/9)*
+    HPL[{2}, dbar] + ((-69 + 15*dbar - 9*dbar^2 - 8*dbar^3 + 2*dbar^4)*
+     HPL[{3}, dbar])/9 + (dbar*(1662 - 933*dbar + 1056*dbar^2 - 134*dbar^3)*
+     HPL[{0, 0}, dbar])/108 + 
+   ((-1629 + 2368*dbar - 1512*dbar^2 + 984*dbar^3 - 211*dbar^4)*
+     HPL[{1, 0}, dbar])/216 + ((257 - 364*dbar + 146*dbar^2 - 40*dbar^3 + 
+      dbar^4)*HPL[{1, 1}, dbar])/72 - 
+   (4*(7 - 10*dbar + 6*dbar^2 - 4*dbar^3 + dbar^4)*HPL[{1, 2}, dbar])/9 + 
+   ((-103 + 60*dbar - 36*dbar^2 + 8*dbar^3 - 2*dbar^4)*HPL[{2, 0}, dbar])/
+    18 + ((1 + 70*dbar - 42*dbar^2 + 24*dbar^3 - 6*dbar^4)*HPL[{2, 1}, dbar])/
+    18 - (8*HPL[{2, 2}, dbar])/3 - (4*HPL[{3, 0}, dbar])/3 - 
+   (8*HPL[{3, 1}, dbar])/3 + (8*(-4 + dbar)*dbar^3*HPL[{0, 0, 0}, dbar])/9 - 
+   (4*(7 - 10*dbar + 6*dbar^2 - 4*dbar^3 + dbar^4)*HPL[{1, 0, 0}, dbar])/9 - 
+   (4*(7 - 10*dbar + 6*dbar^2 - 4*dbar^3 + dbar^4)*HPL[{1, 1, 0}, dbar])/9 - 
+   (8*HPL[{2, 0, 0}, dbar])/3 - (8*HPL[{2, 1, 0}, dbar])/3 + 
+   ((-69 + 20*dbar - 12*dbar^2 + 8*dbar^3 - 2*dbar^4)*Zeta[3])/18}
